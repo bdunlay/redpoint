@@ -1,4 +1,4 @@
-# redpoint BOM
+# redpoint prototype BOM
 
 bill of materials for redpoint
 
@@ -10,7 +10,6 @@ bill of materials for redpoint
 * 128/256 KB flash
 * bluetooth LE
 * spi
-* uart
 * 4 timers
 * 12 bit ADC (8 channels)
 * DMA
@@ -26,20 +25,21 @@ subject to change, but good starting points
 
 ### I/O
 
-* Bluetooth LE (SoC)
-* UART
-* SPI/I2C
-* Display
-
+* Bluetooth LE (254X SoC)
+* SPI/I2C (sensors)
+* LED (for visual status indicator)
+* Piezo (for audible status indicator)
+* Button (to force start/stop of session)
+ 
 ### Memory
 
-* serial flash
+* serial flash (data logging)
 
 ### Power
 
-* usb connector and charging circuit
-* battery
-
+* micro usb connector
+* [charging circuit](https://www.sparkfun.com/products/10217)
+* [battery](https://www.sparkfun.com/products/339)
 
 ### Components
 
