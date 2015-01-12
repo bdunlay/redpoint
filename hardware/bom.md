@@ -19,8 +19,10 @@ bill of materials for redpoint
 
 ### Sensors
 
-* accelerometer
-* altimeter
+subject to change, but good starting points
+
+* [accelerometer](https://www.sparkfun.com/products/9836)
+* [altimeter](https://www.sparkfun.com/products/11084)
 
 ### I/O
 
@@ -36,6 +38,8 @@ bill of materials for redpoint
 ### Power
 
 * usb connector and charging circuit
+* battery
+
 
 ### Components
 
